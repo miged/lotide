@@ -18,7 +18,7 @@ const assertArraysEqual = function(array1, array2) {
   } else {
     console.log(`🛑 Assertion Failed: ${array1} !== ${array2}`);
   }
-}
+};
 
 const middle = function(array) {
   let newArray = [];
@@ -33,7 +33,7 @@ const middle = function(array) {
 
   newArray.push(array[Math.floor(array.length / 2)]);
   return newArray;
-}
+};
 
 assertArraysEqual(middle([1, 2]), []);
 assertArraysEqual(middle([1, 2, 3]), [2]);

@@ -18,7 +18,7 @@ const assertArraysEqual = function(array1, array2) {
   } else {
     console.log(`🛑 Assertion Failed: ${array1} !== ${array2}`);
   }
-}
+};
 
 const without = function(source, itemsToRemove) {
   let newArray = [];
@@ -30,7 +30,7 @@ const without = function(source, itemsToRemove) {
   }
 
   return newArray;
-}
+};
 
 assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);
 assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"]), ["1", "2"]);
