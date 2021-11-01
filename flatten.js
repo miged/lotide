@@ -6,13 +6,12 @@ const flatten = function(array) {
       for (let inner of element) {
         result.push(inner);
       }
-    }
-    else {
+    } else {
       result.push(element);
     }
   }
 
   return result;
-}
+};
 
 console.log(flatten([1, 2, [3, 4], 5, [6]]));

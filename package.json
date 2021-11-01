@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@miged/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A helper library containing various utilities.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,10 @@
     "url": "git+https://github.com/miged/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name" : "Miguel",
+    "email" : "mige.d@outlook.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/miged/lotide/issues"
